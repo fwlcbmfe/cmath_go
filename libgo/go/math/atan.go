@@ -76,7 +76,7 @@ func xatan(x float64) float64 {
 func satan(x float64) float64 {
 	const (
 		Morebits = +6.123233995736765886130e-17 // pi/2 = PIO2 + Morebits
-		Tan3pio8 = +2.414213562373095048800      // tan(3*pi/8)
+		Tan3pio8 = +2.414213562373095048800e+00 // tan(3*pi/8)
 	)
 	if x <= 0.66 {
 		return xatan(x)
